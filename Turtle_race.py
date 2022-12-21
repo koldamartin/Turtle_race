@@ -10,7 +10,7 @@ colours = ["red", "orange", "yellow", "green", "blue", "purple"]
 y_coordinates_list = range(-170, 238, 68)
 
 all_turtles = []
-for new_turtle in range(len(colours)):
+for new_turtle in colours:
     new_turtle = Turtle(shape="turtle")
     all_turtles.append(new_turtle)
 
@@ -37,4 +37,3 @@ else:
     print(f"The {winning_colour} turtle has won the race. You made the wrong bet.")
 
 screen.exitonclick()
-
